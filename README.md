@@ -1,4 +1,4 @@
-### Solo Red Game
+# Solo Red Game
 A text-based application that allows for a single player card game.
 
 ## Features ✨
@@ -26,7 +26,7 @@ A text-based application that allows for a single player card game.
   from the hand they would like to play onto the canvas. (Index starts at 1)
 - A user can type 'q' or 'Q' to quit.
 
-# Canvas Rules Based on Color
+### Canvas Rules Based on Color
 - Red (R): The palette with the highest numbered card is the winning palette.
 - Orange (O): The palette with the most cards of a single number is the winning palette.
 - Blue (B): The palette with the most different colors is the winning palette.
@@ -39,7 +39,7 @@ A text-based application that allows for a single player card game.
   among the tied largest numbered cards, find the card with the closest proximity to Red.
   - Order of proximity to Red: Red (R) > Orange (O) > Blue (B) > Indigo (I) > Violet (V) 
 
-# Difference between the "basic" and "advanced" verison
+### Difference between the "basic" and "advanced" verison
 - In the "basic" version, after playing a card to a losing palette, the user is able to draw
   until the specified max hand size or until the deck is empty.
 - In the "advanced" version, after playing a card to a losing palette, the user is able to draw
@@ -71,7 +71,7 @@ A text-based application that allows for a single player card game.
 3. Edit configurations and arguments. (Steps detailed in Arguments section)
 4. Click run with configurations.
 
-# Arguments
+### Arguments
 - Go to configurations with 'cs3500.solored.SoloRed' as the main class
 - The first argument is the version of the game: "basic" or "advanced".
 - The second argument is optional and represents the number of palettes (Must be greater than 2).
