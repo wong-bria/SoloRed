@@ -63,8 +63,20 @@ A text-based application that allows for a single player card game.
 <br>![lost](images/lost.png)<br>
 
 ## How to Run 🚀
-- The first argument is the version of the game: basic or advanced
-- The second argument is optional and represents the number of palettes
-- The third argument is optional and represents the max number of cards in a hand
+- Ensure you have JDK 11 or later installed.
+- Make sure JUnit 4 is available for testing
+
+1. git clone https://github.com/wong-bria/SoloRed.git
+2. Open the project in the IDE of your choice.
+3. Edit configurations and arguments. (Steps detailed in Arguments section)
+4. Click run with configurations.
+
+# Arguments
+- Go to configurations with 'cs3500.solored.SoloRed' as the main class
+- The first argument is the version of the game: "basic" or "advanced".
+- The second argument is optional and represents the number of palettes (Must be greater than 2).
+- The third argument is optional and represents the max number of cards in a hand (Must be greater than 1).
 - If no arguments are given, then the basic version of the game with 4 palettes 
   and a hand size of 7 will be used.
+- The given number of palettes and given max number of cards in a hand combined must be less than 36.
+- Examples: "", "basic 5 5" "advanced 4 7"
