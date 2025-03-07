@@ -8,7 +8,7 @@ import cs3500.solored.model.hw04.AbstractSoloRedGameModel;
  * Represents the state and behaviors of a SoloRedGame basic version. The basic
  * version is the same as the advanced version, where the only difference
  * is that in this version, after playing to a palette that is losing, the
- * user is able to draw until the specified max hand size or until the hand is
+ * user is able to draw until the specified max hand size or until the deck is
  * empty.
  */
 public class SoloRedGameModel extends AbstractSoloRedGameModel {

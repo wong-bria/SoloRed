@@ -3,7 +3,7 @@ package cs3500.solored.model.hw02;
 import java.util.List;
 
 /**
- * Behaviors for a solo game of RedSeven.
+ * Behaviors for a game of Solo Red.
  * The game consists of four structures:
  * <ul>
  *   <li>A deck of cards to draw from</li>
