@@ -35,7 +35,8 @@ A text-based application that allows for a single player card game.
   - Example: A run of 1, 2, 3, 4, 5 has a run of 5 compared to 2, 3, 4 with a run of 3. 
 - Violet (V): The palette with the most card that has a number below 4 is the winning palette.
 - In case of ties, consider only the cards contributing to winning palette decision then find the card
-  with the closest proximity to Red.
+  with the largest number. If there is still a tie among the cards with the largest number,
+  among the tied largest numbered cards, find the card with the closest proximity to Red.
   - Order of proximity to Red: Red (R) > Orange (O) > Blue (B) > Indigo (I) > Violet (V) 
 
 # Difference between the "basic" and "advanced" verison
@@ -50,6 +51,16 @@ A text-based application that allows for a single player card game.
     play to the canvas and meet the same condition to draw two cards again.
 
 ## Example
+- Starting position of a game with 4 palettes and max hand size of 7 cards.
+![start](start.png)
+- Playing to palette 1 with card index 1 to a losing palette, which doesn't result in the user losing
+  since the winning palette switched from palette 4 to palette 1.
+![palette](palette.png)
+- Playing to canvas with card index 3
+![canvas](canvas.png)
+- Playing to palette 2 with card index 1 to a losing palette, which results in the user losing since
+  the winning palette stayed from palette 1 to palette 1.
+![lost](lost.png)
 
 ## How to Run 🚀
 - The first argument is the version of the game: basic or advanced
