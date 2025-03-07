@@ -52,15 +52,15 @@ A text-based application that allows for a single player card game.
 
 ## Example
 - Starting position of a game with 4 palettes and max hand size of 7 cards.
-![start](start.png)
+![start](images/start.png)
 - Playing to palette 1 with card index 1 to a losing palette, which doesn't result in the user losing
   since the winning palette switched from palette 4 to palette 1.
-![palette](palette.png)
+![palette](images/palette.png)
 - Playing to canvas with card index 3
-![canvas](canvas.png)
+![canvas](images/canvas.png)
 - Playing to palette 2 with card index 1 to a losing palette, which results in the user losing since
   the winning palette stayed from palette 1 to palette 1.
-![lost](lost.png)
+![lost](images/lost.png)
 
 ## How to Run 🚀
 - The first argument is the version of the game: basic or advanced
