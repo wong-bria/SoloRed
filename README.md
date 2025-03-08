@@ -3,7 +3,8 @@ A text-based application that allows for a single player card game.
 
 ## Features ✨
 - Developed using the model-view-controller pattern using Java 📱
-- Utilized abstraction and object-oriented design patterns 🖥️
+- Utilized abstraction and object-oriented design patterns 📦
+  - Factory Design Pattern 🏭
 - Validated methods work as specified using mocks and JUnit tests 🧪
 
 ## Game Instructions
